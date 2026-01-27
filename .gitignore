@@ -1,0 +1,17 @@
+.env
+.env.*
+*.key
+*.pem
+
+node_modules/
+dist/
+.build/
+.cache/
+
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+assets/originals/
+
+*.log
