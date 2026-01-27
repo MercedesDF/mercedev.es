@@ -1,8 +1,9 @@
-#mercedev.es
+# mercedev.es
 
-Biblioteca profesional viva: código + documentación del proceso (La web publicada es el resultado; este repositorio es la fuente de verdad.
+Biblioteca profesional viva: código + documentación del proceso
+La web publicada es el resultado; este repositorio es la fuente de verdad.
 
-#Estructura
+## Estructura
 
 '/src' código fuente
 '/public' salida lista para publicar
@@ -10,9 +11,16 @@ Biblioteca profesional viva: código + documentación del proceso (La web public
 '/scripts' automatizaciones (p.ej. optimización de imágenes)
 '/assets/originals' originales sin optimizar (ignorado por git)
 
-#Principios
+## Principios
 
-Mobile first + responsive
-Accesibilidad (Lighthouse / axe-core)
-JS mínimo (ESModules si se usa)
-Seguridad: secretos en '.env' y fuera del repo
+- Mobile first + responsive
+- Accesibilidad (Lighthouse / axe-core)
+- JS mínimo (ESModules si se usa)
+- Seguridad: secretos en '.env' y fuera del repo
+
+## 📐 Arquitectura y decisiones
+
+Este repositorio es la **fuente de verdad** del proyecto mercedev.es.
+
+Decisiones clave documentadas:
+- [/docs/01-mapa-web.md](./docs/01-mapa-web.md) — Mapa exacto de la web (scope y secciones)
