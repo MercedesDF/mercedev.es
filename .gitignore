@@ -7,6 +7,8 @@ node_modules/
 dist/
 .build/
 .cache/
+.docs/
+.husky/
 
 .DS_Store
 Thumbs.db
