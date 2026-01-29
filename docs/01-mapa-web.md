@@ -7,7 +7,7 @@ La web se compone de 8 secciones principales:
 1. Home
 2. Sobre mí
 3. Biblioteca
-4. Blog
+4. Cuaderno de Bitácora
 5. Laboratorio
 6. Mercí
 7. No-tienda
@@ -26,7 +26,7 @@ Navegación simple, jerarquía plana, máximo 2 niveles de profundidad.
     - Procesos / seguridad
     - Web / ciber / experimentación
 - Acceso directo a:
-    - Blog
+    - Cuaderno de Bitácora
     - Laboratorio
     - Sobre mí
 - Presencia muy sutil de Mercí (no interactiva)
@@ -80,7 +80,7 @@ No es una sección clásica, es un sistema mental.
 - Buscador complejo
 - Filtros avanzados (v1)
 
-## 4️⃣ Blog
+## 4️⃣ Cuaderno de Bitácora
 
 ✅ Qué entra
 - Posts técnicos y reflexivos

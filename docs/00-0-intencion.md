@@ -1,7 +1,7 @@
 # Documento de Intención · mercedev.es (v1.0)
 
 ## 1. Qué es esta web
-Esta web es una biblioteca profesional viva donde documento cómo construyo, refuerzo y reutilizo sistemas técnicos. No es un portfolio estético ni un blog personal al uso. Es un espacio de trabajo público donde el conocimiento se organiza, se conecta y evoluciona.
+Esta web es una biblioteca profesional viva donde documento cómo construyo, refuerzo y reutilizo sistemas técnicos. No es un portfolio estético ni un Cuaderno de Bitácora personal al uso. Es un espacio de trabajo público donde el conocimiento se organiza, se conecta y evoluciona.
 
 ## 2. Para quién es
 - Equipos técnicos y de ingeniería
