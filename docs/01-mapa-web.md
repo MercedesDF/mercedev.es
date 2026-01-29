@@ -79,6 +79,20 @@ Navegación simple, jerarquía plana, máximo 2 niveles de profundidad.
 - Email directo y LinkedIn.
 - Contexto de cuándo contactar (sobriedad).
 
+## 9️⃣ Elementos Transversales
+
+### 📂 La Carpeta (Índice / Vista Lista)
+- **Concepto:** Alternativa funcional a la estantería visual.
+- **Metáfora:** Carpeta de obra con separadores de plástico de colores.
+- **Función:** Acceso rápido, lista completa de títulos, búsqueda.
+- **Uso:** Para quien busca un dato concreto sin "pasear".
+- **Estructura:** Dividida por los mismos 4 colores de las estanterías (Ocre, Azul, Verde, Naranja) + la sección negra de Mercí para el Glosario.
+
+### 📖 Glosario (Diccionario de Obra)
+- **Concepto:** Definición de términos técnicos (DoD, Hardening, WIP, etc.).
+- **Accesibilidad:** Hipervinculado en los textos.
+- **Interacción:** Al pasar el ratón (hover), Mercí explica el término en 1 frase sencilla.
+- **Ubicación:** `/glosario` (página dedicada) + Tooltips globales.
 ---
 
 ## 🧭 Reglas globales
