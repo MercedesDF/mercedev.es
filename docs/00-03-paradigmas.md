@@ -8,7 +8,7 @@ referencias:
   - docs/00-0-intencion.md
   - docs/00-1-backlog.md
   - docs/01-mapa-web.md
-  - docs/02-Biblioteca.md
+  - docs/02-biblioteca.md
   - docs/07-operaciones-it.md
 ---
 
