@@ -36,7 +36,7 @@
 ## 5) Epic: Publicación y CI/CD
 - [ ] **5.1 Mirror:** Deploy a GitHub Pages.
 - [ ] **5.2 GH Secrets:** Configurar `DEPLOY_HOST`, `DEPLOY_USER`, `DEPLOY_KEY`.
-- [ ] **5.3 Pipeline Producción:** GitHub Action + `rsync` hacia Droplet (178.128.47.178).
+- [ ] **5.3 Pipeline Producción:** GitHub Action + `rsync` hacia Droplet (178.128.47.178) con etapas: lint, security scan, accesibilidad (Axe/Lighthouse CI), link checker, smoke tests, deploy si PASS.
 
 ## 6) Epic: Cuaderno de Bitácora
 - [ ] **6.1 Plantilla:** `docs/05-Cuaderno-de-Bitacora-template.md`.
