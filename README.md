@@ -22,9 +22,10 @@ Este repositorio es la **fuente de verdad** del proyecto.
 Decisiones clave documentadas:
 1. [Documento de Intención](./docs/00-0-intencion.md)
 2. [Backlog Operativo](./docs/00-1-backlog.md)
-3. [Mapa Web](./docs/01-mapa-web.md) — Scope y secciones.
-4. [Biblioteca y Semántica](./docs/02-biblioteca.md) — Colores, índice y glosario.
-5. [Operaciones IT](./docs/07-operaciones-it.md) — Infraestructura, Droplet y Pipeline de despliegue.
+3. [Paradigmas y Ruta Unificada](./docs/00-03-paradigmas.md)
+4. [Mapa Web](./docs/01-mapa-web.md) — Scope y secciones.
+5. [Biblioteca y Semántica](./docs/02-biblioteca.md) — Colores, índice y glosario.
+6. [Operaciones IT](./docs/07-operaciones-it.md) — Infraestructura, Droplet y Pipeline de despliegue.
 
 ## 🚀 Estado del Despliegue
 - [ ] **Producción (DigitalOcean):** 🏗️ Configurando Pipeline de despliegue.
