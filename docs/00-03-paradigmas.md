@@ -17,12 +17,12 @@ referencias:
 - Este documento actúa como “fuente de verdad” táctica hasta que se publique la versión estable en `docs/`.
 
 ## Norte y ámbito
-- Web estática + WordPress (tienda/merch) bajo la filosofía motherfuckingwebsite.com: mínimo peso, funciona sin JS, accesible WCAG AA.
-- Arquitectura: ES Modules, BEM, SASS 7-1 con `_index.scss` por carpeta y `_index` raíz; coherencia entre parte estática y WP.
-- Categorías y narrativa siguen el Mapa Web (8 secciones) y la metáfora de Biblioteca/Carpeta de `docs/01-mapa-web.md` y `docs/02-Biblioteca.md`.
+- Fase documental y de preparación: aún sin despliegue ni UI nueva; la web visible sigue la estructura de la rama `main`.
+- Filosofía motherfuckingwebsite.com: mínimo peso, accesible WCAG AA, usable sin JS.
+- Arquitectura objetivo: ES Modules, BEM y SASS 7-1 cuando se aborde la capa visual/código, manteniendo coherencia con WordPress.
 
 ## Estructura esperada (resumen)
-- Código: `/src` (fuente), `/public` (build), `/scripts`, `/assets/originals` (ignorado), `/components`, `/js/modules`, `/sass`.
+- Código (cuando se incorpore): `/src`, `/public`, `/scripts`, `/assets/originals` (ignorado), `/sass`, `/js/modules`, `/components`.
 - Documentación: `/docs` (decisiones públicas); este archivo vive aquí como versión pública mínima. La versión extendida interna queda en `/.docs` hasta consolidar.
 - Infra: ver `docs/07-operaciones-it.md` para DO droplet, claves y flujo de despliegue.
 
@@ -43,15 +43,15 @@ referencias:
 - Infra: no se despliega a main si falla lint/security/test en pipeline descrito en README.
 
 ## Roadmap inmediato (pre-código)
-1. Completar metadatos SEO (description + OG) en todas las páginas definidas en `docs/01-mapa-web.md`.
+1. Completar metadatos SEO (description + OG) para las páginas existentes en la rama `main`.
 2. Definir guía de build ligero y caché (sin bundler) + uso opcional de prompt caching para MerciAssistant (si aplica).
 3. Ejecutar y registrar auditoría Lighthouse; generar backlog de mejoras con responsables y fecha.
-4. Cerrar diseño funcional del Laboratorio/carrusel con criterios de a11y y fallback sin JS; documentar en `/docs`.
-5. Plan E2E: seleccionar herramienta (Cypress/Playwright), flujos mínimos (nav, CV, laboratorio, checkout simulado) y dataset de pruebas.
+4. Plan E2E: seleccionar herramienta (Cypress/Playwright), flujos mínimos acordes a la estructura actual y dataset de pruebas.
+5. Preparar checklist de “sin-JS usable” aplicable a la navegación y contenidos actuales.
 
 ## Integración WordPress (tienda/merch)
 - Mantener paleta/tipografía y tono; respetar BEM en plantillas o bloques personalizados.
-- Checkout simulado y catálogos deben seguir la narrativa de la No-tienda; sin romper peso ni accesibilidad.
+- Evitar dependencias pesadas; priorizar rendimiento y a11y sobre la estética.
 - Registrar decisiones WP en `/.docs` y enlazar en `docs/07-operaciones-it.md` cuando se consoliden.
 
 ## Cómo usar este documento
