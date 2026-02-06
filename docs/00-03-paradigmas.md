@@ -10,7 +10,6 @@ referencias:
   - docs/01-mapa-web.md
   - docs/02-Biblioteca.md
   - docs/07-operaciones-it.md
-  - .docs/paradigmas-mercedev.md
 ---
 
 ## Propósito
@@ -24,7 +23,7 @@ referencias:
 
 ## Estructura esperada (resumen)
 - Código: `/src` (fuente), `/public` (build), `/scripts`, `/assets/originals` (ignorado), `/components`, `/js/modules`, `/sass`.
-- Documentación: `/docs` (decisiones públicas), `/.docs` (normas y bitácoras internas). Este archivo vive en `/.docs`.
+- Documentación: `/docs` (decisiones públicas); este archivo vive aquí como versión pública mínima. La versión extendida interna queda en `/.docs` hasta consolidar.
 - Infra: ver `docs/07-operaciones-it.md` para DO droplet, claves y flujo de despliegue.
 
 ## Paradigmas aplicados
