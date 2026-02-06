@@ -10,7 +10,7 @@
 ## 1) Epic: Repo como “fuente de verdad” (Base)
 - [ ] **1.1 Repo inicial:** `/src`, `/public`, `/docs`, `/scripts`, `/.github/workflows`.
 - [ ] **1.2 Seguridad:** `.gitignore` robusto.
-- [ ] **1.3 Docs base:** README.md y `docs/00-0-intencion.md`.
+- [ ] **1.3 Docs base:** README.md, `docs/00-0-intencion.md` y `docs/00-03-paradigmas.md`.
 
 ## 2) Epic: Documentación Desbloqueadora (Pre-Código)
 - [ ] **2.1 Mapa Web:** `docs/01-mapa-web.md`.
