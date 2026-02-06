@@ -3,14 +3,14 @@
 ## 0) Marco Scrum Operativo
 **Roles:** PO (Prioridades), SM (Foco/WIP), Dev (Implementación).
 **Cadencia:** Sprints de 1 semana.
-**DoD Global:** Mobile-first, accesible (Lighthouse), sin secretos, errores manejados, docs en `/docs`.
+**DoD Global:** Mobile-first, sin-JS usable, accesible (WCAG/Lighthouse registrado), sin secretos, errores manejados, docs en `/docs`.
 
 ---
 
 ## 1) Epic: Repo como “fuente de verdad” (Base)
 - [ ] **1.1 Repo inicial:** `/src`, `/public`, `/docs`, `/scripts`, `/.github/workflows`.
 - [ ] **1.2 Seguridad:** `.gitignore` robusto.
-- [ ] **1.3 Docs base:** README.md y `docs/00-0-intencion.md`.
+- [ ] **1.3 Docs base:** README.md, `docs/00-0-intencion.md` y `docs/00-03-paradigmas.md`.
 
 ## 2) Epic: Documentación Desbloqueadora (Pre-Código)
 - [ ] **2.1 Mapa Web:** `docs/01-mapa-web.md`.
@@ -30,11 +30,13 @@
 - [ ] **4.2 Accessibility Test:** Integrar `axe-core`.
 - [ ] **4.3 Link Checker:** Script anti-404.
 - [ ] **4.4 Smoke Test:** Verificación de status 200.
+- [ ] **4.5 Lighthouse:** Ejecutar y registrar baseline (>90/95/90/90) en cambios de layout/assets.
+- [ ] **4.6 E2E mínimo:** Elegir herramienta (Playwright/Cypress) y flujos base (nav, CV, laboratorio, checkout simulado).
 
 ## 5) Epic: Publicación y CI/CD
 - [ ] **5.1 Mirror:** Deploy a GitHub Pages.
 - [ ] **5.2 GH Secrets:** Configurar `DEPLOY_HOST`, `DEPLOY_USER`, `DEPLOY_KEY`.
-- [ ] **5.3 Pipeline Producción:** GitHub Action + `rsync` hacia Droplet (178.128.47.178).
+- [ ] **5.3 Pipeline Producción:** GitHub Action + `rsync` hacia Droplet (178.128.47.178) con etapas: lint, security scan, accesibilidad (Axe/Lighthouse CI), link checker, smoke tests, deploy si PASS.
 
 ## 6) Epic: Cuaderno de Bitácora
 - [ ] **6.1 Plantilla:** `docs/05-Cuaderno-de-Bitacora-template.md`.

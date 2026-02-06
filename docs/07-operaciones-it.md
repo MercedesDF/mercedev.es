@@ -17,3 +17,14 @@ El flujo de GitHub Actions es:
 ## 🔄 Estrategia de Despliegue
 - **Herramienta:** `rsync` sobre SSH.
 - **Frecuencia:** Automática al hacer push a `main`.
+
+## 🧩 Integración WordPress / Tienda
+- Lineamientos mínimos: ver `docs/08-wordpress-integracion.md`.
+- Registrar en este archivo los cambios de tema/plantillas y resultados Lighthouse relacionados con WP.
+
+## 🧪 CI/CD pendiente
+- Workflow en `.github/workflows` por crear. Debe incluir:
+  1) Linting (HTML/CSS/Markdown)
+  2) Security scan (secretos y dependencias)
+  3) Tests automatizados: accesibilidad (Axe/Lighthouse CI), link checker, smoke de páginas críticas
+  4) Deploy por `rsync` solo si todo lo anterior pasa
