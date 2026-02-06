@@ -11,6 +11,7 @@
 - [ ] **1.1 Repo inicial:** `/src`, `/public`, `/docs`, `/scripts`, `/.github/workflows`.
 - [ ] **1.2 Seguridad:** `.gitignore` robusto.
 - [ ] **1.3 Docs base:** README.md, `docs/00-0-intencion.md` y `docs/00-03-paradigmas.md`.
+- [ ] **1.4 Operaciones IT:** `docs/07-operaciones-it.md` (infra y despliegue DO).
 
 ## 2) Epic: Documentación Desbloqueadora (Pre-Código)
 - [ ] **2.1 Mapa Web:** `docs/01-mapa-web.md`.
@@ -34,9 +35,9 @@
 - [ ] **4.6 E2E mínimo:** Elegir herramienta (Playwright/Cypress) y flujos base (nav, CV, laboratorio, checkout simulado).
 
 ## 5) Epic: Publicación y CI/CD
-- [ ] **5.1 Mirror:** Deploy a GitHub Pages.
-- [ ] **5.2 GH Secrets:** Configurar `DEPLOY_HOST`, `DEPLOY_USER`, `DEPLOY_KEY`.
-- [ ] **5.3 Pipeline Producción:** GitHub Action + `rsync` hacia Droplet (178.128.47.178) con etapas: lint, security scan, accesibilidad (Axe/Lighthouse CI), link checker, smoke tests, deploy si PASS.
+- [ ] **5.1 Mirror:** Deploy a GitHub Pages. Dep: 1.4, 4.x.
+- [ ] **5.2 GH Secrets:** Configurar `DEPLOY_HOST`, `DEPLOY_USER`, `DEPLOY_KEY`. Dep: 1.4, 5.1.
+- [ ] **5.3 Pipeline Producción:** GitHub Action + `rsync` hacia Droplet (178.128.47.178) con etapas: lint, security scan, accesibilidad (Axe/Lighthouse CI), link checker, smoke tests, deploy si PASS. Dep: 1.4, 4.x, 5.2.
 
 ## 6) Epic: Cuaderno de Bitácora
 - [ ] **6.1 Plantilla:** `docs/05-Cuaderno-de-Bitacora-template.md`.
