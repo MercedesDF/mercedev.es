@@ -3,10 +3,11 @@
 ## Objetivo
 Mantener coherencia de marca, rendimiento y accesibilidad al integrar la tienda/merch en WordPress (DO cloudPanel).
 
-## Paleta y tipografía
-- Colores: negro 60% / naranja 30% / blanco 10%; h1/h2 `#F97316`, h3/h4 `#EA580C`, texto `#4B5563`.
-- Botones: naranja `#F97316` texto negro; blanco `#FFFFFF` texto negro.
-- Tipos: usar las mismas familias que en la parte estática; evitar fuentes pesadas.
+## Paleta y tipografía (alineado con 02-biblioteca)
+- Estantes: Ocre (Obra civil), Azul ingeniero (Seguridad), Verde terminal (Laboratorio), Naranja acento (Art de Coté), Negro (Mercí/Glosario).
+- Neutros: Gris hormigón para fondos, blanco de alto contraste para áreas de lectura.
+- Botones: usar el color del estante que represente el contenido; texto siempre con contraste AA.
+- Titulación: sans técnica/rotunda (p.ej. Inter/Roboto Mono); cuerpo: serif legible (p.ej. Merriweather/Lora). Evitar fuentes pesadas.
 
 ## CSS y semántica
 - Respetar nomenclatura BEM en plantillas/bloques personalizados.
