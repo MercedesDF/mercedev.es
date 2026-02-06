@@ -11,7 +11,7 @@
 - [ ] **1.1 Repo inicial:** `/src`, `/public`, `/docs`, `/scripts`, `/.github/workflows`.
 - [ ] **1.2 Seguridad:** `.gitignore` robusto.
 - [ ] **1.3 Docs base:** README.md, `docs/00-0-intencion.md` y `docs/00-03-paradigmas.md`.
-- [ ] **1.4 Operaciones IT:** `docs/07-operaciones-it.md` (infra y despliegue DO).
+- [ ] **1.4 Operaciones IT:** `docs/07-operaciones-it.md` (infra y despliegue DO; incluye guía WP `docs/08-wordpress-integracion.md`).
 
 ## 2) Epic: Documentación Desbloqueadora (Pre-Código)
 - [ ] **2.1 Mapa Web:** `docs/01-mapa-web.md`.
@@ -53,6 +53,7 @@
 ## 8) Epic: No-tienda
 - [2.x,3.x] **8.1 Catálogo:** 6-12 ítems del "archivo curioso".
 - [8.1] **8.2 Narrativa:** Microhistorias.
+- [1.4] **8.3 Guía WP aplicada:** Ajustar plantillas WP a `docs/08-wordpress-integracion.md`.
 
 ## 9) Epic: Laboratorio
 - [2.x] **9.1 Plantilla Proyecto:** `docs/06-proyecto-template.md`.
