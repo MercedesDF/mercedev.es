@@ -26,6 +26,7 @@ Decisiones clave documentadas:
 4. [Mapa Web](./docs/01-mapa-web.md) — Scope y secciones.
 5. [Biblioteca y Semántica](./docs/02-biblioteca.md) — Colores, índice y glosario.
 6. [Operaciones IT](./docs/07-operaciones-it.md) — Infraestructura, Droplet y Pipeline de despliegue.
+7. [WordPress Integración](./docs/08-wordpress-integracion.md) — Guía de ajustes y reglas para WP.
 
 ## 🚀 Estado del Despliegue
 - [ ] **Producción (DigitalOcean):** 🏗️ Configurando Pipeline de despliegue.

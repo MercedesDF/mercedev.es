@@ -165,5 +165,5 @@ Evitar despliegues rotos: **si falla cualquier paso, NO se despliega**.
 
 ## 10) Referencias internas
 - `docs/08-wordpress-integracion.md` — lineamientos mínimos de WP
-- `docs/00-03-paradigmas.md` — anotar cambios que afecten a filosofía/paradigmas
+- `docs/00-3-paradigmas.md` — anotar cambios que afecten a filosofía/paradigmas
 - `README.md` — visión general, estructura y principios

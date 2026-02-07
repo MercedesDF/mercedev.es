@@ -17,3 +17,10 @@ Thumbs.db
 assets/originals/
 
 *.log
+
+# backups
+*.bak
+*.swp
+*~
+*.tmp
+*.orig

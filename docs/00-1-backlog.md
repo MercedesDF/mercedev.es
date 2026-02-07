@@ -8,14 +8,14 @@
 ---
 
 ## 1) Epic: Repo como “fuente de verdad” (Base)
-- [ ] **1.1 Repo inicial:** `/src`, `/public`, `/docs`, `/scripts`, `/.github/workflows`.
-- [ ] **1.2 Seguridad:** `.gitignore` robusto.
-- [ ] **1.3 Docs base:** README.md, `docs/00-0-intencion.md` y `docs/00-03-paradigmas.md`.
-- [ ] **1.4 Operaciones IT:** `docs/07-operaciones-it.md` (infra y despliegue DO; incluye guía WP `docs/08-wordpress-integracion.md`).
+- [X] **1.1 Repo inicial:** `/src`, `/public`, `/docs`, `/scripts`, `/.github/workflows`.
+- [X] **1.2 Seguridad:** `.gitignore` robusto.
+- [X] **1.3 Docs base:** README.md, `docs/00-0-intencion.md` y `docs/00-03-paradigmas.md`.
+- [X] **1.4 Operaciones IT:** `docs/07-operaciones-it.md` (infra y despliegue DO; incluye guía WP `docs/08-wordpress-integracion.md`).
 
 ## 2) Epic: Documentación Desbloqueadora (Pre-Código)
-- [ ] **2.1 Mapa Web:** `docs/01-mapa-web.md`.
-- [ ] **2.2 Biblioteca Conceptual:** `docs/02-biblioteca.md` (Categorías/Colores + Carpeta).
+- [X] **2.1 Mapa Web:** `docs/01-mapa-web.md`.
+- [X] **2.2 Biblioteca Conceptual:** `docs/02-biblioteca.md` (Categorías/Colores + Carpeta).
 - [2.1,2.2] **2.3 Mercí v0:** `docs/03-merci-v0.md` (Contrato de comportamiento).
 - [2.1] **2.4 Datos Glosario:** Crear `src/data/glosario.json` con los primeros 10 términos.
 
