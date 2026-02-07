@@ -91,7 +91,7 @@ Evitar despliegues rotos: **si falla cualquier paso, NO se despliega**.
 ## 6) 🧪 CI/CD pendiente (estado y requisitos)
 
 ### Ubicación
-- `.github/workflows/` (por crear)
+- `.github/workflows/` (**pendiente de creación**)
 
 ### Requisitos del workflow (mínimo viable)
 1) Linting (HTML/CSS/Markdown)  

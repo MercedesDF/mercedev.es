@@ -1,5 +1,5 @@
 ---
-title: 00-03 · Ruta Unificada (provisional)
+title: 00-3 · Ruta Unificada (provisional)
 date: 2026-02-06
 scope: Preparación lógica/estructura
 estado: En curso
@@ -39,7 +39,7 @@ referencias:
 - SEO: `title`, `charset`, `viewport` siempre; antes de cerrar sprint añadir `meta description` + OG por página; sitemap enlazado en footer.
 - Rendimiento: pesos objetivo (CSS/JS), ejecutar `scripts/optimize-images.sh` al añadir assets; evitar JS bloqueante; comprobar TTI/CLS si se toca layout.
 - Sin-JS: contenido y navegación básica funcionan sin JavaScript; fallbacks para localStorage/componentes cargados dinámicamente.
-- QA automatizado: suites Jest vigentes; Lighthouse pendiente con umbrales >90/95/90/90; preparar plan E2E mínimo.
+- QA automatizado: **stack por definir** (sin código aún); Lighthouse pendiente con umbrales >90/95/90/90; preparar plan E2E mínimo.
 - Infra: no se despliega a main si falla lint/security/test en pipeline descrito en README.
 
 ## Roadmap inmediato (pre-código)
@@ -57,3 +57,11 @@ referencias:
 ## Cómo usar este documento
 - Punto de partida en la rama `paradigmas` hasta consolidar; al converger, mover versión estable a `docs/` y enlazar desde README y backlog.
 - Cada tarea del backlog debe referenciar el checkpoint correspondiente de este archivo y del paradigma asociado.
+
+---
+## Notas de cambio
+- 2026-02-07: Normalización de referencias al archivo `docs/00-3-paradigmas.md` en README y docs; ajuste del título interno.
+- 2026-02-07: Alineado el estado del pipeline y workflows con el estado real del repo (planificado, pendiente de creación).
+- 2026-02-07: Ajuste del apartado de QA automatizado para reflejar que el stack aún no está definido.
+- 2026-02-07: Backlog actualizado para marcar documentos pendientes de crear y evitar dependencias fantasma.
+- 2026-02-07: Creadas plantillas mínimas de documentación (Mercí, Home, Bitácora, Proyecto).

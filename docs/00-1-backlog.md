@@ -8,19 +8,20 @@
 ---
 
 ## 1) Epic: Repo como “fuente de verdad” (Base)
-- [X] **1.1 Repo inicial:** `/src`, `/public`, `/docs`, `/scripts`, `/.github/workflows`.
+- [X] **1.1 Repo inicial:** `/src`, `/public`, `/docs`, `/scripts`.
+- [ ] **1.1.1 Workflows:** Crear `/.github/workflows` para CI/CD.
 - [X] **1.2 Seguridad:** `.gitignore` robusto.
-- [X] **1.3 Docs base:** README.md, `docs/00-0-intencion.md` y `docs/00-03-paradigmas.md`.
+- [X] **1.3 Docs base:** README.md, `docs/00-0-intencion.md` y `docs/00-3-paradigmas.md`.
 - [X] **1.4 Operaciones IT:** `docs/07-operaciones-it.md` (infra y despliegue DO; incluye guía WP `docs/08-wordpress-integracion.md`).
 
 ## 2) Epic: Documentación Desbloqueadora (Pre-Código)
 - [X] **2.1 Mapa Web:** `docs/01-mapa-web.md`.
 - [X] **2.2 Biblioteca Conceptual:** `docs/02-biblioteca.md` (Categorías/Colores + Carpeta).
-- [2.1,2.2] **2.3 Mercí v0:** `docs/03-merci-v0.md` (Contrato de comportamiento).
-- [2.1] **2.4 Datos Glosario:** Crear `src/data/glosario.json` con los primeros 10 términos.
+- [2.1,2.2] **2.3 Mercí v0:** `docs/03-merci-v0.md` (Contrato de comportamiento) — **pendiente de crear**.
+- [2.1] **2.4 Datos Glosario:** Crear `src/data/glosario.json` con los primeros 10 términos — **pendiente de crear**.
 
 ## 3) Epic: Web v1 “Funcional”
-- [2.x] **3.1 Arquitectura:** `docs/04-home-estructura.md`.
+- [2.x] **3.1 Arquitectura:** `docs/04-home-estructura.md` — **pendiente de crear**.
 - [3.1] **3.2 Implementación:** Home + 5 páginas base (HTML/CSS).
 - [2.2,3.1] **3.3 Componente Biblioteca:** Visual v1 (Semántica alineada).
 - [2.2,3.1] **3.4 Componente Carpeta:** Vista alternativa "Índice con pestañas" (5 Tabs CSS: Ocre, Azul, Verde, Naranja, Negro).
@@ -40,7 +41,7 @@
 - [1.4,4.x,5.2] **5.3 Pipeline Producción:** GitHub Action + `rsync` hacia Droplet (178.128.47.178) con etapas: lint, security scan, accesibilidad (Axe/Lighthouse CI), link checker, smoke tests, deploy si PASS.
 
 ## 6) Epic: Cuaderno de Bitácora
-- [2.x] **6.1 Plantilla:** `docs/05-Cuaderno-de-Bitacora-template.md`.
+- [2.x] **6.1 Plantilla:** `docs/05-Cuaderno-de-Bitacora-template.md` — **pendiente de crear**.
 - [6.1] **6.2 Semilla:** 5 posts iniciales.
 - [6.1,6.2] **6.3 LinkedIn:** Automatización RSS/Webhook.
 
@@ -56,7 +57,7 @@
 - [1.4] **8.3 Guía WP aplicada:** Ajustar plantillas WP a `docs/08-wordpress-integracion.md`.
 
 ## 9) Epic: Laboratorio
-- [2.x] **9.1 Plantilla Proyecto:** `docs/06-proyecto-template.md`.
+- [2.x] **9.1 Plantilla Proyecto:** `docs/06-proyecto-template.md` — **pendiente de crear**.
 - [9.1,7.x] **9.2 Mercí Focus:** Experimento v1.
 
 ---

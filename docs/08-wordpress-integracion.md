@@ -33,4 +33,4 @@ Mantener coherencia de marca, rendimiento y accesibilidad al integrar la tienda/
 - Revisar roles/usuarios WP y desactivar plugins innecesarios.
 
 ## Registro de decisiones
-- Documentar cambios de tema/plantillas y resultados de Lighthouse en `docs/07-operaciones-it.md` y añadir nota corta en `docs/00-03-paradigmas.md` cuando afecten a paradigmas.
+- Documentar cambios de tema/plantillas y resultados de Lighthouse en `docs/07-operaciones-it.md` y añadir nota corta en `docs/00-3-paradigmas.md` cuando afecten a paradigmas.

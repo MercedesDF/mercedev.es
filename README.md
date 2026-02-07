@@ -22,18 +22,18 @@ Este repositorio es la **fuente de verdad** del proyecto.
 Decisiones clave documentadas:
 1. [Documento de Intención](./docs/00-0-intencion.md)
 2. [Backlog Operativo](./docs/00-1-backlog.md)
-3. [Paradigmas y Ruta Unificada](./docs/00-03-paradigmas.md)
+3. [Paradigmas y Ruta Unificada](./docs/00-3-paradigmas.md)
 4. [Mapa Web](./docs/01-mapa-web.md) — Scope y secciones.
 5. [Biblioteca y Semántica](./docs/02-biblioteca.md) — Colores, índice y glosario.
 6. [Operaciones IT](./docs/07-operaciones-it.md) — Infraestructura, Droplet y Pipeline de despliegue.
 7. [WordPress Integración](./docs/08-wordpress-integracion.md) — Guía de ajustes y reglas para WP.
 
 ## 🚀 Estado del Despliegue
-- [ ] **Producción (DigitalOcean):** 🏗️ Configurando Pipeline de despliegue.
-- [ ] **Mirror Técnico (GitHub Pages):** 🏗️ Pendiente de Action inicial.
+- [ ] **Producción (DigitalOcean):** 🏗️ Pipeline de despliegue **planificado** (no implementado).
+- [ ] **Mirror Técnico (GitHub Pages):** 🏗️ Action inicial **planificada** (no implementada).
 
 ## ⚙️ CI/CD y Calidad (Pipeline de Prevención)
-Cada push a `main` disparará este flujo obligatorio:
+**Planificado:** cuando exista `.github/workflows/`, cada push a `main` disparará este flujo obligatorio:
 1. **Linting:** Validación de sintaxis (HTML/CSS/Markdown).
 2. **Security Scan:** Verificación de secretos expuestos y dependencias.
 3. **Automated Tests:** - ✅ Accesibilidad (Axe Core / Lighthouse CI).
