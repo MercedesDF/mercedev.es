@@ -1,6 +1,6 @@
 # 07-operaciones-it.md · Infraestructura y Operaciones
 
-Este documento describe la infraestructura, el acceso seguro, la estrategia de despliegue y el registro operativo de cambios (especialmente WordPress), para que el proyecto sea **audit-able** y **repetible**.
+Este documento describe la infraestructura, el acceso seguro, la estrategia de despliegue y el registro operativo de cambios (especialmente WordPress), para que el proyecto sea **auditable** y **repetible**.
 
 ---
 
@@ -9,11 +9,9 @@ Este documento describe la infraestructura, el acceso seguro, la estrategia de d
 ### Producción (PROD)
 - **Proveedor:** DigitalOcean (Droplet + cloudPanel / WordPress Marketplace)
 - **OS:** Ubuntu
-- **Host PROD:** gestionado por secreto `DEPLOY_HOST` (no se publica en docs)
+- **Host PROD:** gestionado por secreto `DEPLOY_HOST` 
 - **Usuario deploy:** gestionado por secreto `DEPLOY_USER`
 - **Destino web:** `/var/www/html`
-
-> Nota: Evitar publicar IP/host en repos públicos. Se gestiona por secretos y panel del proveedor.
 
 ### Staging (opcional, recomendado)
 - Si se habilita un staging, se documenta aquí:
@@ -24,11 +22,6 @@ Este documento describe la infraestructura, el acceso seguro, la estrategia de d
 ---
 
 ## 2) 🔐 Acceso y autenticación
-
-### SSH
-- **Tipo de clave:** `ed25519`
-- **Nombre recomendado:** `id_ed25519_mercedev` y `id_ed25519_mercedev.pub`
-- **Uso:** acceso por SSH al servidor y despliegue automatizado por CI.
 
 ### Secretos (GitHub)
 - `DEPLOY_HOST` → host producción (o IP, si aplica)
