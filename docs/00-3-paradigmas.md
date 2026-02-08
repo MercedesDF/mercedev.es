@@ -15,6 +15,7 @@ referencias:
 ## Propósito
 - Consolidar intención, mapa, backlog y paradigmas en una sola hoja de ruta para la fase de preparación. La estética y el código quedan en segundo plano; mandan la estructura, la lógica y los checkpoints de calidad.
 - Este documento actúa como “fuente de verdad” táctica hasta que se publique la versión estable en `docs/`.
+- Este documento define **objetivos y criterios futuros**; no describe el estado actual del repo.
 
 ## Norte y ámbito
 - Fase documental y de preparación: aún sin despliegue ni UI nueva; la web visible sigue la estructura de la rama `main`.
@@ -67,3 +68,4 @@ referencias:
 - 2026-02-07: Creadas plantillas mínimas de documentación (Mercí, Home, Bitácora, Proyecto).
 - 2026-02-07: Backlog corregido para reflejar que las plantillas v0 ya existen.
 - 2026-02-07: Paleta en paradigmas alineada con `docs/02-biblioteca.md`.
+- 2026-02-07: Aclaración de que este documento define objetivos futuros, no el estado actual.
