@@ -28,7 +28,7 @@ referencias:
 
 ## Paradigmas aplicados
 - Principios: Clean Architecture + SOLID, modularidad estricta, lazy load cuando no rompa a11y, comentarios breves en castellano.
-- Paleta y legibilidad (de `.docs/paradigmas-mercedev.md`): negro 60% / naranja 30% / blanco 10%; h1/h2 `#F97316`, h3/h4 `#EA580C`, texto `#4B5563`; AA obligatorio.
+- Paleta y legibilidad (alineada con `docs/02-biblioteca.md`): Ocre/Tierra (Obra Civil), Azul Ingeniero/Acero (Seguridad), Verde Terminal/Lima (Lab/Web), Naranja Acento (Art de Coté), Negro (Mercí/Glosario). Neutros: Gris Hormigón + Blanco de lectura. Contraste AA obligatorio.
 - Performance: CSS ≈15KB, JS ≈8KB, imágenes optimizadas (script), sin bundlers pesados.
 - Accesibilidad y SEO: WCAG AA, navegación por teclado, alt/aria completos, meta obligatorias + pending meta description y Open Graph por página.
 - Seguridad: secretos en `.env`, `.gitignore` robusto, SSH seguro.
@@ -66,3 +66,4 @@ referencias:
 - 2026-02-07: Backlog actualizado para marcar documentos pendientes de crear y evitar dependencias fantasma.
 - 2026-02-07: Creadas plantillas mínimas de documentación (Mercí, Home, Bitácora, Proyecto).
 - 2026-02-07: Backlog corregido para reflejar que las plantillas v0 ya existen.
+- 2026-02-07: Paleta en paradigmas alineada con `docs/02-biblioteca.md`.
