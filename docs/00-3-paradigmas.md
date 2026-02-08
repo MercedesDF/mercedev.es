@@ -65,3 +65,4 @@ referencias:
 - 2026-02-07: Ajuste del apartado de QA automatizado para reflejar que el stack aún no está definido.
 - 2026-02-07: Backlog actualizado para marcar documentos pendientes de crear y evitar dependencias fantasma.
 - 2026-02-07: Creadas plantillas mínimas de documentación (Mercí, Home, Bitácora, Proyecto).
+- 2026-02-07: Backlog corregido para reflejar que las plantillas v0 ya existen.
